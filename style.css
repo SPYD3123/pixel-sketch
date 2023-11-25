@@ -25,32 +25,26 @@
     width: 900px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    padding: auto;
     gap: 10px;
     align-items: center;
 }
-.top{
-    border: 2px red solid;
-    height: 60px;
-    width: 90%;
-}
 .mid{
     border: 2px red solid;
-    height: 600px;
-    width: 600px;
+    height: 750px;
+    width: 750px;
     /* height: 500px ; */
     display: grid;
     /* grid-template-columns:repeat(2,auto); */
 }
-/* .mid{
-    gap:1px
-} */
-.bottom{
-    border: 2px red solid;
-    height: 60px;
-    width:90%
-}
 .tiles{
     /* border: blue 2px solid; */
-    background-color: red;
+    background-color: rgb(255, 255, 255);
 }
+
+.borders{
+    border-right: 1px grey solid;
+    border-top: 1px grey solid;
+}
+
