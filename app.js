@@ -2,11 +2,11 @@ const Defaultr = 0;
 const Defaultg = 0;
 const Defaultb = 0;
 const Defaultcolor = `rgb(${Defaultr},${Defaultg},${Defaultb})`
-const Defaultpenmode = 'color'
-const Defaultsize = 125;
+const Defaultpenmode = 'grayscale'
+const Defaultsize = 70;
 const Defaultpentype = 'drag';
 const Defaultgridmode = 'plane';
-const DefaultAnimation = 'on';
+const DefaultAnimation = 'off';
 
 
 let currentsize = Defaultsize;
