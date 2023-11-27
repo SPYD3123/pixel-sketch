@@ -23,7 +23,7 @@ body{
     width: 420px;
     display: flex;
     flex-direction: column;
-    gap: 25px;
+    gap: 20px;
     /* justify-content: space-between; */
 }
 
@@ -246,4 +246,10 @@ input:checked + .slider:before {
 #btn_convert:hover{
   transform: scale(1.05);
   /* transition: ; */
+}
+
+.heading{
+  align-self: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
