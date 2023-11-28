@@ -96,6 +96,7 @@ function creategrid() {
         
         tile.addEventListener('mouseover', changecolor)
         tile.addEventListener('mousedown', changecolor)
+        
         tile.addEventListener('dragstart', (e) => e.preventDefault());
     });
 }
