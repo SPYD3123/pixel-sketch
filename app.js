@@ -172,7 +172,7 @@ function pattern() {
 
 function animation(e) {
     if (currentAnimation == 'on') {
-        e.target.style.transition = 'all 0.1s';
+        e.target.style.transition = 'all 0.3s';
     }
 }
 
