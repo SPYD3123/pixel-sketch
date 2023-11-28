@@ -239,3 +239,13 @@ function changepentype(e){
     }
 }
 
+if (/Mobi|Android/i.test(navigator.userAgent)) {
+    // Display a message or redirect users
+    document.body.innerHTML = '<h1>This site is not optimized for mobile devices. Please visit from a desktop or laptop.</h1>';
+    
+    // Optionally, you can redirect users to a different page
+    // window.location.href = 'https://example.com/desktop-version';
+    
+    // Stop further execution of the script
+    throw new Error('Mobile access not allowed.');
+}
