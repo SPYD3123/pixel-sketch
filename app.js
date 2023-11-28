@@ -3,7 +3,7 @@ const Defaultg = 51;
 const Defaultb = 51;
 const Defaultcolor = `rgb(${Defaultr},${Defaultg},${Defaultb})`
 const Defaultpenmode = 'color'
-const Defaultsize = 125;
+const Defaultsize = 100;
 const Defaultpentype = '';
 const Defaultgridmode = 'plane';
 const DefaultAnimation = 'off';
@@ -92,11 +92,8 @@ function creategrid() {
 
     let tiles = document.querySelectorAll('.tiles')
     tiles.forEach(tile => {
-        // pattern();
-        
         tile.addEventListener('mouseover', changecolor)
         tile.addEventListener('mousedown', changecolor)
-        
         tile.addEventListener('dragstart', (e) => e.preventDefault());
     });
 }
