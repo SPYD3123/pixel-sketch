@@ -93,8 +93,10 @@ function creategrid() {
     let tiles = document.querySelectorAll('.tiles')
     tiles.forEach(tile => {
         // pattern();
+        
         tile.addEventListener('mouseover', changecolor)
         tile.addEventListener('mousedown', changecolor)
+        tile.addEventListener('dragstart', (e) => e.preventDefault());
     });
 }
 
